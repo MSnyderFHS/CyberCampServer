@@ -1,0 +1,19 @@
+#!/bin/bash
+
+printf '%s\r\n' \
+"" \
+"+------------------------------------------+" \
+"|        PANTHER LEETSPEAK RELAY           |" \
+"|              CHANNEL 31337               |" \
+"+------------------------------------------+" \
+"" \
+"TRANSMISSION INTERCEPTED:" \
+"" \
+"7H3 P4N7H3R H1D H15 55H P455W0RD" \
+"1N 0N3 0F 7H15 53RV3R'5 07H3R" \
+"53RV1C35. 5C4N 7H3M 4LL." \
+"" \
+"-- END OF TRANSMISSION --" \
+"Connection terminated."
+
+sleep 1

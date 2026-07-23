@@ -1,0 +1,24 @@
+[Unit]
+Description=Panther leetspeak relay connection
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/panther-leetspeak
+
+StandardInput=socket
+StandardOutput=socket
+StandardError=journal
+
+DynamicUser=yes
+NoNewPrivileges=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectSystem=strict
+ProtectHome=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+LockPersonality=yes
+MemoryDenyWriteExecute=yes
+RestrictSUIDSGID=yes
+CapabilityBoundingSet=

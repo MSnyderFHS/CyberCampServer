@@ -1,0 +1,11 @@
+[Unit]
+Description=Panther leetspeak relay on TCP port 31337
+
+[Socket]
+ListenStream=0.0.0.0:31337
+Accept=yes
+NoDelay=yes
+MaxConnections=25
+
+[Install]
+WantedBy=sockets.target
